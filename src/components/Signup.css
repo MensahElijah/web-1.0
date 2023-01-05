@@ -1,0 +1,141 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    background-color: darkgrey;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+  }
+  .home{
+    background-color: darkgrey;
+    width: 100%;
+    /* height:250px;
+    margin-top: 60px; */
+  }
+  .head{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    background: rgb(20, 20, 20);
+    padding-top: 20px;
+  }
+  .inputs{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    
+  }
+  .bttn{
+    background-color: green;
+    font-size: 15px;
+    font-weight: 200px;
+    width: 100px;
+    /* border: palevioletred solid; */
+    padding: 6px;
+  }
+  .messages{
+    display: flex;
+    justify-content: center;
+  }
+  .error{
+    display: block;
+    color: red;
+    width: fit-content;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: small;
+    /* padding-bottom: 5px; */
+  }
+  .success{
+    display: block;
+    color: green;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: small;
+  }
+  .account{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    
+  }
+  span{
+    margin-top: 2px;
+    color: white;
+  }
+
+  @media screen and (max-width: 960px) {
+
+    .Main{
+      display: flex;
+      flex-direction: column;
+      background-color: darkgrey;
+      height: auto;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+    }
+    .home{
+      background-color: darkgrey;
+      width: 100%;
+      height:250px;
+      margin-top: 60px;
+    }
+    .head{
+      font-family: 'Times New Roman', Times, serif;
+      width: 100%;
+      height: auto;
+      background: darkgray;
+      /* padding-top: 20px; */
+    }
+    .inputs{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: larger;
+      padding: 6px;
+      margin: 10px;
+      border-radius: 10px;
+      /* border: palevioletred solid; */
+    }
+    .bttn{
+      background-color: rgb(135, 164, 252);
+      font-size: 15px;
+      font-weight: 200px;
+      width: 100px;
+      /* border: palevioletred solid; */
+      padding: 6px;
+    
+    }
+    .messages{
+      display: flex;
+      justify-content: center;
+    }
+    .error{
+      display: block;
+      color: red;
+      width: fit-content;
+      height: 50px;
+      padding: 5px;
+      border-radius: 10px;
+      font-size: small;
+      padding-bottom: 5px;
+    }
+    .success{
+      display: block;
+      color: green;
+      height: 50px;
+      padding: 5px;
+      border-radius: 10px;
+      font-size: small;
+    }
+    
+  }

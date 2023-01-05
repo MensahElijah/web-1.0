@@ -1,0 +1,88 @@
+.Serv{
+    background-color: #313131; 
+    /* width: 100%;    */
+}
+.carol{
+    height: 400px;
+    margin-bottom: 10px;
+   position: relative;
+   overflow: hidden;
+    cursor: pointer;
+}
+img{
+    height: 400px;
+}
+.visa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.shinging{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    color: wheat;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.card-down{
+    display: flex;
+    height: 40px;
+    width: 20rem; 
+    cursor: pointer; 
+}
+.G-travel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px; 
+    cursor: pointer;
+    /* padding-bottom: 10px; */
+}
+.height{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+} 
+.Good{
+    /* height: 300px; */
+    width: 700px;
+    margin-top: 20px;
+    cursor: pointer;
+} 
+p{
+    /* text-transform: uppercase; */
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    color: white; 
+    cursor: pointer;
+  
+} 
+hr{
+    width: 500px;
+    margin-left: 27rem;
+    color: darkmagenta; 
+       
+}
+h1{
+    color: wheat; 
+    /* text-shadow: 2px 2px red; */
+    cursor: pointer;
+    /* text-decoration: underline; */
+}

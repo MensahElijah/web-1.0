@@ -1,0 +1,237 @@
+.Pen{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    background-color: black;
+    font-family: 'Amazon_ember', Arial, sans-serif;
+    
+ }
+ .Bana{
+    font-size: 10px;
+    width: 20rem;
+    color: #fff; 
+ }
+ .Go{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    text-align: justify;
+    color: #fff;
+ }
+ .Pic{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+ }
+ .Girl{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #313131;
+    font-family: 'Amazon_ember', Arial, sans-serif;
+ }
+ .Boy{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    text-align: justify;
+    color: #fff;
+    padding-left: 45px;
+    
+ }
+ .Woman{
+   font-size: 20px;
+    width: 200px; 
+    cursor: pointer; 
+ }
+ .Mom{
+    font-family: 'Amazon_ember', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #313131; 
+ }
+ .One{
+    background-color: #313131; 
+    /* background-color: crimson; */
+    height: 250px;
+    width: 30%;
+    border: cornsilk solid;
+    text-align: justify;
+    color: #fff;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+ .Two{
+    background-color: #313131; 
+    height: 250px;
+    width: 30%;
+    border: cornsilk solid;
+    text-align: justify;
+    color: #fff;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+ .Three{
+    background-color: #313131; 
+    height: 250px;
+    width: 30%;
+    border: cornsilk solid;
+    text-align: justify;
+    color: #fff;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+ .Text{
+    font-size: 30px;
+    color: purple;
+    padding-bottom: 20px;
+    padding-left: 35px;
+ }
+ .Text:hover{
+    color: #17cf97;
+    cursor: pointer;
+ }
+ .Pic{
+    height: 250px;
+    width: 100%;
+ }
+ .Four{
+    
+    background-color: rgb(87, 86, 86); 
+    height: 250px;
+    width: 100%;
+    
+ }
+
+ @media screen and (max-width: 769px) {
+   .Pen{
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #313131;
+      font-family: 'Amazon_ember', Arial, sans-serif;
+      
+   }
+   .Bana{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      width: 100%;
+      margin-right: 10px;
+      color: #fff;
+      
+   }
+   .Go{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+      text-align: justify;
+      color: #fff;
+   }
+   .Pic{
+      height: 50px;
+      width: 100px;
+      border-radius: 90px;
+     
+   }
+   .Girl{
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #313131;
+      font-family: 'Amazon_ember', Arial, sans-serif;
+   }
+   .Boy{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+      text-align: justify;
+      color: #fff;
+      font-size: 25px;
+      padding-right: 25px;
+  
+      
+   }
+   .Woman{
+     font-size: 20px;
+      width: 100%;
+      margin-left: 50px; 
+  
+      color: #fff; 
+   }
+   .Mom{
+      font-family: 'Amazon_ember', Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: #313131; 
+   }
+   .One{
+      background-color: #313131; 
+      /* background-color: crimson; */
+      height: 250px;
+      width: 100%;
+      border: cornsilk solid;
+      text-align: justify;
+      font-size: 25px;
+      color: #fff;
+      padding-top: 20px;
+      border-radius: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+   
+   .Text{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: underline;
+      font-size: 30px;
+      color: white;
+   }
+   .Text:hover{
+      color: purple;
+      cursor: pointer;
+   }
+   .Pic{
+      height: 250px;
+      width: 100%;
+   }
+   .Four{
+      
+      background-color: rgb(87, 86, 86); 
+      height: 250px;
+      width: 100%;
+      
+   }
+  
+   
+ }
+ 

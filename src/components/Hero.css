@@ -1,0 +1,259 @@
+.hero{
+   background-color: #313131;
+   height: 100%;
+   width: 100%;
+   cursor: pointer;
+}
+.carol{
+   height: 400px;
+   margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+   cursor: pointer;
+}
+img{
+   height: 400px;
+}
+.card-img{
+   height: 70%;
+   cursor: pointer;
+}
+
+.img{
+   height: 30rem;
+   width: 30rem;
+   cursor: pointer;
+}
+.First{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   height: 25rem;
+   background-color: rgb(97, 97, 253);
+   cursor: pointer;
+   
+}
+.text{
+   height: 10rem;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.text p{
+   color: white;
+   font-size: 20px;
+   font-weight: 10px;
+   transition: ease-in-out;
+   height: 30rem;
+   cursor: pointer;
+}
+.imgs{
+   height: 250px;
+   width: 250px;
+   padding: 8px; 
+   border-radius: 10px;
+   cursor: pointer;
+}
+.chance{
+   height: 30rem;
+   width: 100%;
+   cursor: pointer;
+}
+.chance-img{
+   width: 100%;
+   height: 30rem;
+   /* -webkit-backface-visibility: hidden; */
+    -ms-transform: translateZ(0); /* IE 9 */
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0)
+    
+}
+.Second{
+   display: flex;
+   flex-direction: row;
+   justify-items: center;
+   align-items: center; 
+   background-color: rgb(97, 97, 253); 
+   cursor: pointer;
+}
+.second-chance p{
+   color: white;
+   font-size: 25px;
+   font-weight: 10px;
+   transition: ease-in-out;
+   margin-left: 25rem;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.country{
+   width: 100%;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding-bottom: 10px;
+   cursor: pointer;
+}
+.img-top{
+   width: 100%;
+   height: 20rem;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.card-text{
+   color: white;
+   font-size: 25px;
+   font-weight: 10px;
+   transition: ease-in-out;
+   cursor: pointer;
+   cursor: pointer;
+}
+.card-texts{
+   color: white;
+   cursor: pointer;
+}
+.card-texts1:hover{
+   color: #17cf97;
+   cursor: pointer;
+
+}
+h5{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 40px;
+}
+.card-texts1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 25px;
+}
+
+@media screen and (max-width: 769px){
+   .hero{
+      background-color: rgb(97, 97, 253);
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+   }
+   .card-img{
+      height: 40%;
+      cursor: pointer;
+   }
+   
+   .img{
+      height: 20rem;
+      width: 20rem;
+      cursor: pointer;
+   }
+   .First{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 100%;
+      background-color: rgb(97, 97, 253);
+      cursor: pointer;
+      
+   }
+   .text{
+      height: 10rem;
+      border-radius: 10px;
+      cursor: pointer;
+   }
+   .text p{
+      color: white;
+      font-size: 25px;
+      font-weight: 10px;
+      transition: ease-in-out;
+      height: 30rem;
+      cursor: pointer;
+   }
+   .imgs{
+      height: 250px;
+      width: 250px;
+      padding: 8px; 
+      border-radius: 10px;
+      cursor: pointer;
+   }
+   .chance{
+      height: 30rem;
+      width: 100%;
+      cursor: pointer;
+   }
+   .chance-img{
+      width: 100%;
+      height: 30rem;
+      /* -webkit-backface-visibility: hidden; */
+       -ms-transform: translateZ(0); /* IE 9 */
+       -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+       transform: translateZ(0)
+       
+   }
+   .Second{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center; 
+      background-color: rgb(97, 97, 253); 
+      cursor: pointer;
+   }
+   .second-chance p{
+      color: white;
+      font-size: 25px;
+      font-weight: 10px;
+      transition: ease-in-out;
+      margin-left: 25rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+   }
+   .country{
+      width: 100%;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-bottom: 10px;
+      cursor: pointer;
+   }
+   .img-top{
+      width: 100%;
+      height: 20rem;
+      border-radius: 10px;
+      cursor: pointer;
+   }
+   .card-text{
+      color: white;
+      font-size: 25px;
+      font-weight: 10px;
+      padding-top: 10px;
+      transition: ease-in-out;
+      cursor: pointer;
+      cursor: pointer;
+   }
+   .card-texts{
+      color: white;
+      cursor: pointer;
+   }
+   .card-texts1:hover{
+      color: #17cf97;
+      cursor: pointer;
+   
+   }
+   h5{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+   }
+   .card-texts1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+   }
+}
